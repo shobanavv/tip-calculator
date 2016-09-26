@@ -2,6 +2,7 @@
 //  SettingsViewController.swift
 //  TipCalculator
 //
+//  Created by Shobana Ramesh on 9/25/16.
 //  Copyright © 2016 Shobana Ramesh. All rights reserved.
 //
 
@@ -11,8 +12,8 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var defaultChoice: UISegmentedControl!
     let defaults = UserDefaults.standard
-    
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,15 +28,15 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
+
     @IBAction func saveChoice(_ sender: AnyObject) {
-        
+
         let defaults = UserDefaults.standard;
         defaults.set(defaultChoice.selectedSegmentIndex, forKey:"tipPercent")
         defaults.synchronize()
     }
-    
+
     /*
     // MARK: - Navigation
 
