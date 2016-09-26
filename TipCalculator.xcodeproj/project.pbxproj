@@ -14,6 +14,7 @@
 		D6C46BA81D9890DD00F43C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C46BA61D9890DD00F43C60 /* LaunchScreen.storyboard */; };
 		D6C46BB31D9890DD00F43C60 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C46BB21D9890DD00F43C60 /* TipCalculatorTests.swift */; };
 		D6C46BBE1D9890DD00F43C60 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C46BBD1D9890DD00F43C60 /* TipCalculatorUITests.swift */; };
+		D6C46BCC1D98969D00F43C60 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C46BCB1D98969D00F43C60 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D6C46BB91D9890DD00F43C60 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C46BBD1D9890DD00F43C60 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		D6C46BBF1D9890DD00F43C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C46BCB1D98969D00F43C60 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D6C46B9D1D9890DD00F43C60 /* AppDelegate.swift */,
 				D6C46B9F1D9890DD00F43C60 /* ViewController.swift */,
 				D6C46BA11D9890DD00F43C60 /* Main.storyboard */,
+				D6C46BCB1D98969D00F43C60 /* SettingsViewController.swift */,
 				D6C46BA41D9890DD00F43C60 /* Assets.xcassets */,
 				D6C46BA61D9890DD00F43C60 /* LaunchScreen.storyboard */,
 				D6C46BA91D9890DD00F43C60 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				D6C46BA01D9890DD00F43C60 /* ViewController.swift in Sources */,
 				D6C46B9E1D9890DD00F43C60 /* AppDelegate.swift in Sources */,
+				D6C46BCC1D98969D00F43C60 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sampathweb.TipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sampathweb.TipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

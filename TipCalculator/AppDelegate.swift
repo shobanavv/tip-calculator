@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  TipCalculator
 //
-//  Created by Ramesh Sampath on 9/25/16.
 //  Copyright © 2016 Shobana Ramesh. All rights reserved.
 //
 
