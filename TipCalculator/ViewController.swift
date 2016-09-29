@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        
+        billField.becomeFirstResponder()
         let defaults = UserDefaults.standard;
         let billAmount = defaults.string(forKey: "billAmount")
         billField.text = billAmount
@@ -51,14 +52,22 @@ class ViewController: UIViewController {
         defaults.set(billField.text, forKey:"billAmount")
     }
     
+    func currencyFormat(value: NSNumber) -> String {
+        
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        
+        return formatter.string(from: value)!
+    }
+    
     func updateTotal(bill: Double, tipPercentIndex: Int) {
         let tipPercent = [0.08,0.1,0.15,0.20]
         
         let tip = bill * tipPercent[tipPercentIndex]
         let total = bill + tip
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        tipLabel.text = self.currencyFormat(value: NSNumber(value: tip))  // ( String(format: "$%.2f", tip)
+        totalLabel.text = self.currencyFormat(value: NSNumber(value: total))  // String(format: "$%.2f", total)
     }
 
     
