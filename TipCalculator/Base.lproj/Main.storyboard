@@ -132,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BCu-Cq-kQ6">
-                                <frame key="frameInset" minX="54" minY="153" width="256" height="29"/>
+                                <frame key="frameInset" minX="16" minY="187" width="279" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.15754512170000001" green="0.2326927536" blue="0.27067653800000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
@@ -148,7 +148,7 @@
                                 </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.65393287369999997" green="0.66666666669999997" blue="0.3519079577" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.87776324920000004" green="0.90252333090000003" blue="0.9221959448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Rx-ht-reR">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="W5d-ET-Rnk">
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0G9-R7-auG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2401" y="59"/>
+            <point key="canvasLocation" x="2400.8000000000002" y="58.920539730134934"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fPK-Yu-hrq">

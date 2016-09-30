@@ -23,19 +23,20 @@ class ViewController: UIViewController {
         let defaults = UserDefaults.standard;
         let getChoice = defaults.integer(forKey: "tipPercent")
         percentControl.selectedSegmentIndex = getChoice
+//        billField.becomeFirstResponder()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        billField.becomeFirstResponder()
         let defaults = UserDefaults.standard;
         let billAmount = defaults.string(forKey: "billAmount")
         billField.text = billAmount
         
         updateTotal(bill: Double(billAmount!) ?? 0, tipPercentIndex: Int(percentControl.selectedSegmentIndex))
-    }
+           }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

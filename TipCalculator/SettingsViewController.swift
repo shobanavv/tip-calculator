@@ -11,7 +11,8 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var defaultChoice: UISegmentedControl!
-    let defaults = UserDefaults.standard
+//    let color = UIColor.blueColor()
+//    let defaults = UserDefaults.standard
 
 
     override func viewDidLoad() {
@@ -36,7 +37,15 @@ class SettingsViewController: UIViewController {
         defaults.set(defaultChoice.selectedSegmentIndex, forKey:"tipPercent")
         defaults.synchronize()
     }
-
+    
+//    @IBAction func theme(_ sender: AnyObject) {
+//        let style = UserDefaults.standard;
+//        
+//       style.set(color,forKey:"blue")
+//        defaults.synchronize()
+//
+//    }
+//    
     /*
     // MARK: - Navigation
 
